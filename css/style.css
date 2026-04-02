@@ -997,3 +997,21 @@
 .navbar .btn:hover {
     background-color: #e6b800;
 }
+
+.header-carousel .owl-item img {
+    height: 420px;
+    object-fit: cover;
+}
+
+.header-carousel .owl-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.header-carousel .owl-dot span {
+    background: #ccc;
+}
+
+.header-carousel .owl-dot.active span {
+    background: #FFCE00;
+}
