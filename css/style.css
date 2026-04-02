@@ -975,3 +975,25 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+/* Hover menu */
+.navbar .nav-link {
+    font-weight: 500;
+    color: #333;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #FFCE00;
+}
+
+/* Active */
+.navbar .nav-link.active {
+    color: #FFCE00;
+    font-weight: 600;
+}
+
+/* Button hover */
+.navbar .btn:hover {
+    background-color: #e6b800;
+}
